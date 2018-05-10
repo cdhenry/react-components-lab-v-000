@@ -5,6 +5,8 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ]
 
+const products = [<li>{BUTCHER_PRODUCTS[0]}</li>, <li>BUTCHER_PRODUCTS[1]</li>, <li>BUTCHER_PRODUCTS[2]</li>, <li>BUTCHER_PRODUCTS[3]</li>]
+
 // Define these exported classes
 export class OlderCoaster extends React.Component {
   render() {
@@ -33,7 +35,6 @@ export class InFrontOfYou extends React.Component {
 }
 
 export class ButcherShop extends React.Component {
-  const products = [<li>{BUTCHER_PRODUCTS[0]}</li>, <li>BUTCHER_PRODUCTS[1]</li>, <li>BUTCHER_PRODUCTS[2]</li>, <li>BUTCHER_PRODUCTS[3]</li>]
   render() {
     return (
       <div class="butcher-shop">
